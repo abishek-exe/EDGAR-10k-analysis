@@ -15,7 +15,7 @@ beautiful soup 4 - useful for webscraping;
 flutter - very easy to pick up for web development;
 html + css - basic 
 
-Gemini 1.5 pro - LLM of choice for inference
+Gemini 1.5 pro - LLM of choice
 
 
 
