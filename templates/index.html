@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Abishek's Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6em;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            text-align: center;
+            /* Center the content */
+        }
+
+        h1 {
+            text-align: center;
+            color: #3d3d3d;
+            padding: 20px 0;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 10px;
+            background-color: #3d3d3d;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #4CAF50;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Abishek's Project for Finacial Services Innovation Lab </h1>
+        <p>This project was undertaken as an programming assignment for the financial services innovation lab. I
+            utilized Gemini 1.5 PRO as the LLM for my
+            analysis. The companies under scrutiny were Google and Nvidia, with a primary focus on researching their
+            financials and future outlook.</p>
+        <p>The tech stack employed for this project was diverse and robust. I used Beautiful Soup 4 for web scraping
+            information from the 10-K HTML files, which were downloaded using the SEC Downloader library. Data cleaning
+            was performed using Pandas, and Matplotlib was used for graph plotting.</p>
+        <p>Flask was the framework of choice for creating a web application. I extracted the MD&A section from the 10-K
+            reports and conducted an analysis using Gemini. This also extended to the creation of financial graphs,
+            comparative analysis, and more.</p>
+        <p>The web application, designed to display the graphs and analysis, was built using Flask. The styling of the
+            application was achieved using HTML and CSS. This project, therefore, served as a comprehensive exercise in
+            data analysis, web development, and financial research.</p>
+        <a href="/nvda" class="button">NVDA</a>
+        <a href="/googl" class="button">GOOGL</a>
+    </div>
+</body>
+
+</html>
